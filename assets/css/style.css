@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* targeted body */
 body {
     background-color: #d9dcd6;
 }
-
+/* targeted header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,9 +22,10 @@ header h1 {
 
 header h1 .seo {
     color: #d9dcd6;
+    /* -------------------------- */
 }
-
-header nav {
+/* targeted nav */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,18 +33,22 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+ nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* -------------------------------- */
 a {
     color: #ffffff;
     text-decoration: none;
+}
+/* Added a hover state */
+a-hover {
+    text-decoration: underline
 }
 
 p {
@@ -85,23 +90,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*Condensed 3 separate classes to 1 class that covers the same formatting */
+/*Added class benefit to remove rendudant class declaration  */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Condensed 3 separate classes to 1 class that covers the same formatting */
+
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*Condensed 3 separate classes to 1 class that covers the same formatting */
+
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /* --------------------------------- */
 }
-/* Made new class "info" to condense for D.R.Y */
+/* Added  class "info" to remove redundant class declaration */
 .info {
     margin-bottom: 20px;
     padding: 50px;
@@ -118,6 +124,7 @@ p {
 .info h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* ------------------------- */
 }
 /*Condensed to footer instead of div class */
 footer {
