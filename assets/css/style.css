@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Condensed 3 separate classes to 1 class that covers the same formatting */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Condensed 3 separate classes to 1 class that covers the same formatting */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Condensed 3 separate classes to 1 class that covers the same formatting */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Made new class "info" to condense for D.R.Y */
 .info {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +119,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Condensed to footer instead of div class */
 footer {
     padding: 30px;
     clear: both;
