@@ -1,6 +1,6 @@
 # Horiseon Seo-Refactor
 
-[Link to my deployed project](https://www.google.com)
+[Link to my deployed project](https://sydneyhaynes22.github.io/seo-refactor/)
 
 ## Table of Contents
 - [Description](#description)
